@@ -42,8 +42,33 @@ nav {
   flex-wrap: wrap;
 }
 .brand { color: var(--navy); font-weight: 800; }
-.navlinks { display: flex; gap: 15px; flex-wrap: wrap; }
-.navlinks a { color: var(--ink); font-size: 14px; }
+
+.navlinks {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.navlinks a {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 13px;
+  border: 1px solid #cbd8e2;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #102a43;
+  font-size: 13px;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.navlinks a:hover {
+  background: #102a43;
+  color: #ffffff;
+  border-color: #102a43;
+  text-decoration: none;
+}
+
 
 .hero {
   background: linear-gradient(135deg, #102a43, #18516a);
