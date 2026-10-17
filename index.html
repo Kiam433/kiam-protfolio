@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sifath Sahariar Kiam's portfolio in public policy, research, youth engagement and responsible business conduct.">
+<title>Sifath Sahariar Kiam | Portfolio</title>
+
+<style>
+:root {
+  --navy: #102a43;
+  --teal: #168a88;
+  --ink: #263746;
+  --muted: #627487;
+  --line: #dce5eb;
+  --light: #f3f7fa;
+  --white: #ffffff;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  line-height: 1.7;
+  background: var(--light);
+}
+a { color: var(--teal); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { width: min(1080px, 91%); margin: auto; }
+
+header {
+  background: white;
+  border-bottom: 1px solid var(--line);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 0;
+  flex-wrap: wrap;
+}
+.brand { color: var(--navy); font-weight: 800; }
+.navlinks { display: flex; gap: 15px; flex-wrap: wrap; }
+.navlinks a { color: var(--ink); font-size: 14px; }
+
+.hero {
+  background: linear-gradient(135deg, #102a43, #18516a);
+  color: white;
+  padding: 76px 0;
+}
+.eyebrow {
+  color: #8ce0d4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: clamp(38px, 7vw, 66px);
+  line-height: 1.1;
+  margin: 15px 0;
+}
+.hero p { max-width: 720px; color: #e1edf3; font-size: 18px; }
+.button {
+  display: inline-block;
+  padding: 11px 17px;
+  border-radius: 7px;
+  margin: 12px 8px 0 0;
+  font-weight: bold;
+  background: #80d8cb;
+  color: #102a43;
+}
+.button.outline {
+  background: transparent;
+  border: 1px solid #b8d2de;
+  color: white;
+}
+.photo-placeholder {
+  margin-top: 28px;
+  max-width: 320px;
+  padding: 18px;
+  border: 1px dashed #a9c8d7;
+  border-radius: 10px;
+  color: #dceaf0;
+  font-size: 14px;
+}
+
+section { padding: 58px 0; }
+section.alt { background: #eaf1f5; }
+.kicker {
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h2 { color: var(--navy); font-size: 32px; margin: 5px 0 12px; }
+h3 { color: var(--navy); margin-top: 0; }
+.intro { max-width: 760px; color: var(--muted); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+.card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 23px;
+}
+.card p { color: var(--muted); margin-bottom: 0; }
+.tag {
+  display: inline-block;
+  color: #126d6b;
+  background: #e4f5f1;
+  padding: 4px 9px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 24px;
+}
+.metric {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px;
+}
+.metric strong { display: block; color: var(--teal); font-size: 30px; }
+.metric span { color: var(--muted); font-size: 14px; }
+.timeline { display: grid; gap: 15px; margin-top: 24px; }
+.timeline .card { border-left: 4px solid var(--teal); }
+.meta { color: var(--teal); font-weight: bold; font-size: 13px; }
+.education-space { min-height: 40px; }
+.contact { background: var(--navy); color: white; }
+.contact h2 { color: white; }
+.contact .intro { color: #dce8ef; }
+.contact .card { background: #173a52; border-color: #34566a; }
+.contact .card h3 { color: white; }
+.contact .card p { color: #e0edf3; overflow-wrap: anywhere; }
+.contact a { color: #8ce0d4; }
+footer { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 680px) {
+  .grid, .metric-grid { grid-template-columns: 1fr; }
+  .hero { padding: 52px 0; }
+  .navlinks { gap: 10px; }
+  nav { align-items: flex-start; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <a class="brand" href="#home">SIFATH SAHARIAR KIAM</a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#learning">RBC School</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="eyebrow">Public Policy · Research · Responsible Business</div>
+      <h1>Sifath Sahariar Kiam</h1>
+      <p>
+        I work across youth engagement, field research, policy communication
+        and responsible business conduct. My interests include evidence-informed
+        policy, inclusive development, education, sustainability and partnerships
+        that connect community realities with institutional action.
+      </p>
+      <a class="button" href="#work">Explore My Work</a>
+      <a class="button outline" href="#contact">Get in Touch</a>
+      <div class="photo-placeholder">
+        Professional profile photo will be added here.
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="kicker">About Me</div>
+      <h2>Evidence, people and practical change</h2>
+      <p class="intro">
+        My experience brings together community-level engagement, research,
+        youth participation and policy-focused work. I am interested in how
+        evidence can help institutions understand people's experiences and
+        make public programmes more responsive.
+      </p>
+
+      <div class="metric-grid">
+        <div class="metric">
+          <strong>6</strong>
+          <span>Research projects contributed to</span>
+        </div>
+        <div class="metric">
+          <strong>13</strong>
+          <span>Field visits across Bangladesh</span>
+        </div>
+        <div class="metric">
+          <strong>2,000+</strong>
+          <span>Beneficiaries reached through initiatives</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="work">
+    <div class="container">
+      <div class="kicker">Selected Work</div>
+      <h2>Research and policy projects</h2>
+      <p class="intro">
+        Selected contributions to field research, civic participation and policy writing.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <span class="tag">Field Research</span>
+          <h3>Youth Voice Mechanism</h3>
+          <p>
+            Worked as an FGD Note Taker, documenting insights from two focus
+            group discussions for a project involving the United Nations in
+            Bangladesh and the Ministry of Youth and Sports.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="tag">Governance</span>
+          <h3>Ballot, Barriers and Beyond</h3>
+          <p>
+            Worked as a Data Enumerator on a UNDP Bangladesh project and
+            conducted field surveys with 110 respondents.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="tag">Policy Writing</span>
+          <h3>Men's Mental Health in Bangladesh</h3>
+          <p>
+            Co-authored a 2025 policy brief examining legal gaps, systemic
+            barriers and possible directions for improving men's mental health support.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="tag">Education</span>
+          <h3>Youth and Education Policy</h3>
+          <p>
+            Contribute to youth policy networks and education-focused engagement.
+            I am interested in practical ways to connect research findings with
+            decisions and programme delivery.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <div class="kicker">Experience & Leadership</div>
+      <h2>Working with communities and institutions</h2>
+      <p class="intro">
+        Selected roles in youth engagement, research, communication and civic participation.
+      </p>
+
+      <div class="timeline">
+        <article class="card">
+          <div class="meta">Youth Policy Forum (YPF)</div>
+          <h3>Policy Network Management Coordinator</h3>
+          <p>
+            Contribute to policy network coordination and youth engagement
+            around evidence-informed policy discussions.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="meta">BRAC Youth Platform</div>
+          <h3>Content Facilitator</h3>
+          <p>
+            Support youth-focused content and learning activities through facilitation.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="meta">Transparency International Bangladesh</div>
+          <h3>Deputy Leader, YES, CCC Rajshahi</h3>
+          <p>
+            Supported seven awareness sessions reaching around 200 beneficiaries
+            through youth-led civic engagement activities.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="meta">YSALI · U.S. Department of State Programme</div>
+          <h3>Youth Leader</h3>
+          <p>
+            Participated in a youth leadership programme focused on engagement
+            and leadership development.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="meta">Udbhasini</div>
+          <h3>Founder & CEO</h3>
+          <p>
+            Lead an initiative focused on community-centred ideas and creative reuse.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="meta">Right Here Right Now Project</div>
+          <h3>Youth Ambassador</h3>
+          <p>
+            Contributed to youth engagement through a project supported by the
+            Embassy of the Netherlands in Dhaka.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="learning">
+    <div class="container">
+      <div class="kicker">Professional Learning</div>
+      <h2>Responsible Business Conduct (RBC) School 2026</h2>
+      <p class="intro">International Labour Organization (ILO)</p>
+
+      <article class="card">
+        <span class="tag">Alumni</span>
+        <span class="tag">Narayanganj Cohort</span>
+        <h3>Responsible Business Conduct School 2026</h3>
+        <p>
+          Alumnus of the Narayanganj Cohort of the ILO Responsible Business
+          Conduct (RBC) School 2026.
+        </p>
+        <p>
+          <strong>Project context:</strong> Co-funded under the Team Europe
+          Initiative on Decent Work in Bangladesh, with partner institutions
+          including the European Union, the Embassy of Denmark, the Kingdom
+          of the Netherlands, Sweden and Canada.
+        </p>
+        <p>
+          <a href="https://rbcschool.org/apply" target="_blank" rel="noopener">
+            Visit the RBC School website →
+          </a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <div class="kicker">Education</div>
+      <h2>Education</h2>
+      <div class="education-space"></div>
+    </div>
+  </section>
+
+  <section class="alt" id="writing">
+    <div class="container">
+      <div class="kicker">Writing & Recognition</div>
+      <h2>Ideas and public engagement</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Policy Brief · 2025</h3>
+          <p>
+            "Breaking the Silence: Men's Mental Health in Bangladesh – Legal Gaps,
+            Systemic Barriers, and the Road Ahead."
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Youth Changemaker Feature</h3>
+          <p>
+            Featured by <em>The Daily Amar Desh</em> on 4 April 2025.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>NASA Space Apps Challenge 2024</h3>
+          <p>Recognised as a "Galactic Problem Solver".</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="kicker">Contact</div>
+      <h2>Let's connect</h2>
+      <p class="intro">
+        For collaboration and conversations about research, public policy,
+        sustainability and responsible business conduct.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Email</h3>
+          <p>
+            <a href="mailto:sifatkiyam3@gmail.com">sifatkiyam3@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>LinkedIn</h3>
+          <p>
+            <a href="https://www.linkedin.com/in/sifath-sahariar-kiam-b2a2b327a"
+               target="_blank" rel="noopener">
+              Connect on LinkedIn →
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 Sifath Sahariar Kiam · Personal Portfolio
+</footer>
+
+</body>
+  </html>
